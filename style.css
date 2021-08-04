@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    width: 90%;
+    height: 600px;
+    background: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+
+}
+
+nav ul{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+nav ul li a{
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.small-screen-logo{
+    display: none;
+}
+nav ul li{
+    list-style: none;    
+}
+.home h1{
+  padding-top: 200px;
+  padding-left: 50px;
+  font-family: 'Palanquin Dark', sans-serif;
+  letter-spacing: 4px;
+  color: white;
+  line-height: 70px;
+  font-size: 50px;
+}
+.home p{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.btn{
+   margin: 50px;
+   padding: 7px;
+   font-size: 17px;
+   border-radius: 20px;
+   border: none;
+   background-color: rgb(245, 199, 199);
+   color: #000;
+   width: 130px; 
+   font-family: 'Noto Sans JP', sans-serif;
+
+}
+.btn-2{
+    margin: 50px;
+    padding: 7px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 199, 199);
+    color: #000;
+    width: 130px; 
+    margin-top: -60px;
+    font-family: 'Noto Sans JP', sans-serif;
+ 
+ }
+ .btn-3{
+  
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(156, 117, 117);
+    color: rgb(255, 255, 255);
+    width: max-content; 
+    cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+ 
+ }
+ .btn-3:hover{
+     opacity: 0.9;
+ }
+.aboutus{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.logo-right{
+    width: 500px;
+    background: url(Img/logo.png);
+    height: 500px;
+ margin: auto;
+}
+.text-left{
+   padding: 120px;
+   font-size: 20px;
+   font-family: 'Noto Sans JP', sans-serif;
+   margin: auto;
+   line-height: 40px;
+
+}
+
+#text-right{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Palanquin Dark', sans-serif;
+    letter-spacing: 4px;
+    color: rgb(58, 42, 42);
+    line-height: 70px;
+    font-size: 50px;
+}
+.text-right p{
+    
+    padding: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(58, 42, 42);
+    font-size: 20px;
+}
+.work-submit{
+    display: flex;
+    height: max-content;
+    width:  90%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.heading h1{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Palanquin Dark', sans-serif;
+    letter-spacing: 4px;
+    color: rgb(58, 42, 42);
+    line-height: 70px;
+    font-size: 50px;
+}
+.text h1{
+    padding: 20px;
+    font-family: 'Palanquin Dark', sans-serif;
+    letter-spacing: 4px;
+    color: rgb(58, 42, 42);
+    line-height: 70px;
+    font-size: 35px;
+}
+.text p{
+    padding: 300px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(58, 42, 42);
+    font-size: 20px;
+    line-height: 45px;
+    margin-top: -240px;
+}
+.text p a{
+    color: #000;
+}
+.heading p{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: rgb(58, 42, 42);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.main h1 {
+    padding: 20px;
+    font-family: 'Palanquin Dark', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(58, 42, 42);
+    font-size: 35px;
+    text-align: center;
+}
+.main h2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(58, 42, 42);
+    font-family: 'Caveat', cursive;
+}
+.main p{
+    font-size: 22px;
+    color: rgb(58, 42, 42);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    width: 70%;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .text-left{
+        padding: 10px;
+        font-size: 15px;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin: auto;
+        line-height: 40px;
+     
+     }
+    .home{
+        height: 80vw; 
+        background: #524135;
+    }
+    .home h1{
+        padding-top: 30px;
+        padding-left: 20px;
+        line-height: 10vw;
+        font-size: 7vw;
+      }
+      .home p{
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 10px;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: white;
+        font-size: 4vw;
+    }
+    .small-screen-logo{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .small-screen-logo img{
+        width: 60vw;
+
+    }
+    .logo-right{
+        display: none;
+    }
+    .main p{
+        font-size: 18px;
+        color: rgb(58, 42, 42);
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 40px;
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+    }
+    .btn{
+        margin: 10px;
+        padding: 5px;
+        font-size: 12px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(245, 199, 199);
+        color: #000;
+        width: 100px; 
+        font-family: 'Noto Sans JP', sans-serif;
+     
+     }
+     .btn-2{
+        margin: 10px;
+        padding: 5px;
+        font-size: 12px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(245, 199, 199);
+        color: #000;
+        width: 100px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Noto Sans JP', sans-serif;
+     
+     }
+     
+     #About{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image-left{
+       display: none;
+    }
+     .text-right{
+        width: 600px;
+        height: 90vw;
+        margin: auto;
+    }
+    .text-right h1{
+        text-align: center;
+        padding: 20px;
+        font-family: 'Palanquin Dark', sans-serif;
+        letter-spacing: 4px;
+        color: rgb(58, 42, 42);
+        font-size: 40px;
+    }
+    .text-right p{
+        text-align: center;
+        padding: 20px;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: rgb(58, 42, 42);
+        font-size: 4.3vw;
+    }
+    .heading h1{
+        text-align: center;
+margin-top: -70px;
+        font-family: 'Palanquin Dark', sans-serif;
+        letter-spacing: 4px;
+        color: rgb(58, 42, 42);
+        font-size: 30px;
+    }
+    #submit h1{
+        text-align: center;
+margin-top: -50px;
+        font-family: 'Palanquin Dark', sans-serif;
+        letter-spacing: 4px;
+        color: rgb(58, 42, 42);
+        font-size: 30px;
+    }
+  .text p{
+    padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(58, 42, 42);
+    font-size: 20px;
+    line-height: 45px;
+    margin-top: 0px;
+}
+    .heading p{
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: rgb(58, 42, 42);
+        font-size: 15px;
+    }
+  
+   
+
+    
+}
+
+/* ISSUES */
+
+.issue-cards{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.issue-card{
+
+    width: 320px;
+    height: 390px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+display: flex;
+    border-radius: 20px;
+    margin: auto;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px rgb(49, 49, 49);
+}
+
+#issue-card-1{
+
+    margin: 20px;
+}
+
+.issue-card img{
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 270px;
+    padding: 20px;
+    margin: auto;
+    width: 270px;
+    object-fit: cover;
+}
+.issue-card p{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(58, 42, 42);
+}
+.issue-card h2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(58, 42, 42);
+    text-transform: uppercase;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.text-left a{
+    color: rgb(61, 47, 255);
+}
+
+/* 
+FOOTER */
+
+footer{
+    width: 100%;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    background: #111;
+    font-family: 'Palanquin Dark', sans-serif;
+
+  }
+  footer .content{
+    max-width: 1350px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer .content p,a{
+    color: #fff;
+  }
+  footer .content .box{
+    width: 33%;
+    transition: all 0.4s ease;
+  }
+  footer .content .topic{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+  
+  }
+  footer .content p{
+    text-align: justify;
+  }
+  footer .content .lower .topic{
+    margin: 24px 0 5px 0;
+  }
+  footer .content .lower i{
+    padding-right: 16px;
+  }
+  footer .content .middle{
+    padding-left: 80px;
+  }
+  footer .content .middle a{
+    line-height: 32px;
+  }
+  footer .content .right input[type="text"]{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    color: #d9d9d9;
+    background: #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 2px solid #222222;
+  }
+  footer .content .right input[type="submit"]{
+    height: 42px;
+    width: 100%;
+    font-size: 18px;
+    color: #000000;
+    background: #ffcbcb;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 12px;
+    border: 2px solid #dbb3aa;
+    transition: all 0.3s ease-in-out;
+  }
+  .content .right input[type="submit"]:hover{
+    background: none;
+    color:  #ecc2c2;
+  }
+  footer .content .media-icons a{
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    border: 2px solid #222222;
+    margin: 30px 5px 0 0;
+    transition: all 0.3s ease;
+  }
+  .content .media-icons a:hover{
+    border-color: #ffcdc2;
+  }
+  footer .bottom{
+    width: 100%;
+    text-align: right;
+    color: #d9d9d9;
+    padding: 0 40px 5px 0;
+  }
+  footer .bottom a{
+    color: #ffc8bb;
+  }
+  footer a{
+    transition: all 0.3s ease;
+  }
+  footer a:hover{
+    color: #ffcfc4;
+  }
+  @media (max-width:1100px) {
+    footer .content .middle{
+      padding-left: 50px;
+    }
+  }
+  @media (max-width:950px){
+    footer .content .box{
+      width: 50%;
+    }
+    .content .right{
+      margin-top: 40px;
+    }
+  }
+  @media (max-width:560px){
+    footer{
+      position: relative;
+    }
+    footer .content .box{
+      width: 100%;
+      margin-top: 30px;
+    }
+    footer .content .middle{
+      padding-left: 0;
+    }
+  }
+  

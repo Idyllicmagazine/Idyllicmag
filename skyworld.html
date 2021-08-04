@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky World by Aditya Kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <style>
+        nav ul {
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px;
+            font-size: 18px;
+            color: rgb(54, 37, 37);
+
+        }
+
+        .small-screen-logo {
+            display: none;
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        .illustrations {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 100%;
+            height: max-content;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .illustration-1 {
+            padding: 40px;
+        }
+
+        .illustration-2 {
+            padding: 40px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .illustration-1 img {
+            width: 280px;
+        }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="issues.html">Issues</a></li>
+            <li><a href="about.html">About us</a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <h1>Sky World</h1>
+        <h2>By Aditya Kumar</h2>
+        <br><br><br>
+        <div class="illustrations">
+
+            <div class="illustration-1">
+                <img src="img/sky world - Aditya kumar.jpg" width="700px">
+            </div>
+        
+        </div>
+
+    </div>
+
+    <br><br><br><br>
+    <!-- FOOTER -->
+
+<footer>
+    <div class="content">
+      <div class="left box">
+        <div class="upper">
+          <div class="topic">About us</div>
+          <p>Idyllic Magazine is a student-run digital magazine, <br> 
+        introduced to provide a platform for youth where they can <br>
+    Express themselves through any form of art.</p>
+        </div>
+        <div class="lower">
+          <div class="topic">Contact us</div>
+        
+          <div class="email">
+            <a href="#"><i class="fas fa-envelope"></i>idyllicmagazine@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="middle box">
+        <div class="topic">Important</div>
+        <div><a href="issues.html">Issues</a></div>
+        <div><a href="about.html">About us</a></div>
+        <div><a href="Guidelines.html">Submissions</a></div>
+        <div><a href="mailto:idyllicmagazine@gmail.com">Contact us</a></div>
+      </div>
+      <div class="right box">
+
+        <div class="topic">Subscribe us</div>
+
+        <form action="https://formspree.io/f/xrgryyor"
+        method="POST"
+        >
+
+          <input type="text" name="email" placeholder="Enter email address">
+          <input type="submit" name="" value="Send">
+
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>Copyright © 2020 <a href="index.html">Idyllic Magazine</a> All rights reserved</p>
+    </div>
+  </footer>
+</body>
+
+</html>
