@@ -539,3 +539,14 @@ footer{
     }
   }
   
+  .theme{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(58, 42, 42);
+    text-transform: uppercase;
+    height: max-content;
+    width: 100%;
+    background-color: #ffd5d5;
+    font-family: 'Palanquin Dark', sans-serif;
+
+  }
