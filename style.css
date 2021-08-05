@@ -132,6 +132,17 @@ nav ul li{
     line-height: 70px;
     font-size: 50px;
 }
+.theme{
+  text-align: center;
+  font-size: 16px;
+  color: rgb(58, 42, 42);
+  text-transform: uppercase;
+  height: max-content;
+  width: 100%;
+  background-color: #ffd5d5;
+  font-family: 'Palanquin Dark', sans-serif;
+
+}
 .text-right p{
     
     padding: 50px;
@@ -539,14 +550,3 @@ footer{
     }
   }
   
-  .theme{
-    text-align: center;
-    font-size: 16px;
-    color: rgb(58, 42, 42);
-    text-transform: uppercase;
-    height: max-content;
-    width: 100%;
-    background-color: #ffd5d5;
-    font-family: 'Palanquin Dark', sans-serif;
-
-  }
